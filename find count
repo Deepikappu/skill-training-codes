@@ -1,0 +1,14 @@
+def findCount(arr,num,diff):
+        n = len(arr)
+        count = 0
+        for i in range(n):
+            if abs(arr[i] - num)<= diff:
+                count = count + 1
+        if count == 0:
+            return -1
+        else:
+            return count
+arr=[12, 3, 14, 56, 77, 13]
+num = 13
+diff = 2
+findCount(arr,num,diff)

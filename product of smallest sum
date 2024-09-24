@@ -1,0 +1,13 @@
+def smallPair(arr,sum):
+    n=len(arr)
+    if n < 2:
+        print('-1')
+    sarr = sorted(arr)
+    for i in range(n - 1):
+        ssum = sarr[i] + sarr[i + 1]
+        if ssum <= sum:
+            return sarr[i] * sarr[i + 1]
+
+arr = [2,6,1,7,8]
+sum = 3
+smallPair(arr,sum)

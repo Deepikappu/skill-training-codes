@@ -1,0 +1,10 @@
+def hyphens(s):
+    alph=''
+    hyp=''
+    for i in s:
+        if i =='_':
+            hyp = hyp+i
+        else:
+            alph = alph+i
+    return hyp+alph
+            

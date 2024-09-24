@@ -1,0 +1,8 @@
+def passward(pwd):
+    if len(pwd) < 4:
+        return 0
+    if pwd[0].isdigit():
+        return 0
+
+
+passward("ngh")

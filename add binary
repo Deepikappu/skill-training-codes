@@ -1,0 +1,7 @@
+a = "11"
+b = int (a,2)
+print(b)
+a = "11"
+b = int (a,2)
+print(b)
+bin(b+d)[2:]
